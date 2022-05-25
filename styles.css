@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.reloj{
+    max-width: 400px;
+    width: 100%;
+    height: 180px;
+    color: white;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 4px;
+}
+.fecha{
+    height: 30%;
+    font-size: 20px;
+    margin-bottom: 2%;
+    gap: 8px;
+}
+.hora{
+    height: 68%;
+    font-size: 60px;
+    font-weight: 600;
+}
+#momento{
+    font-size: 40px;
+}
+#seg{
+    text-align: center;
+    font-size: 30px;
+}
