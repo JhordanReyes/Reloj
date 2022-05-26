@@ -27,6 +27,9 @@ const reloadTime = () => {
         hora = hora - 12;
         momento = "PM";
     }
+    if(hora < 10){
+        hora = "0" + hora;
+    }
 
     if(min < 10){
         min = "0" + min;
