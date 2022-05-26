@@ -14,8 +14,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .reloj{
-    max-width: 400px;
-    width: 100%;
+    max-width: 500px;
+    width: 90%;
     height: 180px;
     color: white;
 }
@@ -30,11 +30,11 @@ body{
 .fecha{
     height: 30%;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     gap: 8px;
 }
 .hora{
-    height: 68%;
+    height: 69%;
     font-size: 60px;
     font-weight: 600;
 }
@@ -44,4 +44,21 @@ body{
 #seg{
     text-align: center;
     font-size: 30px;
+}
+@media screen and (min-width: 650px) {
+    .reloj{
+        height: 200px;
+    }
+    .fecha{
+        font-size: 30px;
+    }
+    .hora{
+        font-size: 80px;
+    }
+    #momento{
+        font-size: 50px;
+    }
+    #seg{
+        font-size: 45px;
+    }
 }
